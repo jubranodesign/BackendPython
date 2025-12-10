@@ -24,7 +24,8 @@ The architecture maintains a strict **separation of concerns**, with shared mode
 **Examples:**
 
 * `GET /trials/`
-* `POST /analysis/run-all`
+* `GET /analysis/results/`
+* `GET /analysis/results/?result_type=GLOBAL_CONDITION_COUNT`
 
 ---
 
