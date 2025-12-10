@@ -1,7 +1,17 @@
 #  Project Architecture Overview
 
-The architecture maintains a strict **separation of concerns**, with shared models and utilities centralized in the **common** module.
+This project is structured using a clear modular architecture that separates responsibilities across multiple service layers. Each service focuses on a dedicated aspect of the system, API handling, data processing, ingestion, and shared utilities.
+allowing the application to remain scalable, maintainable, and easy to extend.
 
+**At its core, the architecture ensures:**
+
+1. Loose coupling between services
+
+2. Clear separation of concerns
+
+3. Shared, consistent data models across all components
+
+4. Independent development and scaling of each service layer
 ---
 
 ## Core Modules & Services
